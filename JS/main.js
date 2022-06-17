@@ -6,7 +6,7 @@ let numChar ;
 
 let currentChar, previousChar ;
 
-let operation = [ '+' , '-' , '*' , '/' ] ; 
+let operation = [ '+' , '-' , '*' , '/' , '%' ] ; 
 
 
 //---functions---//
@@ -71,5 +71,5 @@ function overWrite () {
 }
 
 function MinusNum () {
-    
+
 }
