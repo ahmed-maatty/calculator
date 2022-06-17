@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#2196f3 , #e91e63);
+}
+
+#app {
+    background-color: #1c1c1c;
+    width: 400px;
+    height: 600px;
+}
+
+.row {
+    display: flex;
+    height: 100px;
+}
+
+button {
+    flex:1;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #1c1c1c;
+    color: #adadad;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #292929;
+    cursor: pointer;
+}
+
+input[type="text"]{
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: #1f1f1f;
+    color: #adadad;
+    font-size: 30px;
+    padding: 0 15px;
+}
+
+.special {
+    flex: 2;
+}
